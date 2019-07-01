@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>登录</title>
     <link rel="stylesheet" href="./css/xw_logindl.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/iconfont.css">
@@ -36,17 +36,17 @@
                                 </select>
                                 <a href="javascript:," class="xw_ift01"><i class="iconfont icon-xiajiantou"></i></a>
                                 <!-- 手机号注册 -->
-                                <input type="text" name="" value="" class="xw_ipt">
+                                <input type="text" name="" value="" class="xw_ipt" id="username">
                             </div>
                             
                             <div class="xw_psw">
-                                  <input type="password" name="" value="" placeholder="请输入密码" class="xw_pas" style="border: 1px solid #dedfe0">
+                                  <input type="password" name="" value="" placeholder="请输入密码" id="password" class="xw_pas" style="border: 1px solid #dedfe0">
                             </div>
                             <div class="xw_ts">
                                     请输入有效的手机号
                             </div>
-                            <button class="xw_btn">注册成功</button>
-                            <button class="xw_btn01">注册vivo账号</button>
+                            <button class="xw_btn" id="xw_sub">登录</button>
+                            <button class="xw_btn01"><a href="XW_loginzh.html" style="color: #0091ff">注册vivo账号</a></button>
                             <div class="xw_wjmm">忘记密码？</div>
                              <div class="xw_wj">
                                  <div class="xw_zx">
@@ -82,6 +82,9 @@
                 </div>
             </div>
     </div>
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <script src="./js/xw_denglu.js"></script>
+    
 </body>
 
 </html>
