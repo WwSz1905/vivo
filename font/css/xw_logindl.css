@@ -1,0 +1,286 @@
+body, html {
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+}
+#xw_box{
+    width: 100%;
+    height: 100%;
+    
+}
+.xw_banner {
+    display: block;
+    width: 1200px;
+    height: 780px;
+    position: relative;
+    margin: 0 auto;
+   background: url(../img/xw/d1.jpg) no-repeat;
+}
+.xw_lgo img{
+    width: 145px;
+    height: 52px;
+    position: absolute;
+    left: 243px;
+}
+
+#xw_dlbox{
+    position: absolute;
+    top: 74px;
+    right: 0;
+    width: 420px;
+    background-color: hsla(0,0%,100%,.97);
+
+}
+.xw_header{
+    text-align: center;
+}
+.xw_header img{
+    width: 160px;
+    height: 42px;
+    margin: 0 auto;
+    cursor: pointer;
+    
+}
+.xw_header01{
+    margin-top: 15px;
+    font-family: HYQiHei-FZS;
+    font-size: 19px;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #000;
+    text-align: center;
+}
+
+
+.xw_ip{
+    width: 359px;
+   height: 48px;
+   margin: 0 auto;
+   cursor: pointer;
+   display: flex;
+   border: 1px solid #dedfe0;
+   position: relative;
+   margin-top: 50px;
+}
+
+.xw_ift01 .icon-xiajiantou{
+    position: absolute;
+    top: 4px;
+    left: 46px;
+    font-size: 25px;
+    cursor: pointer;
+}
+#xw_dh{
+    width: 94px;
+    height: 46px;
+    padding-left: 12px;
+    line-height: 46px;
+    font-size: 16px;
+    color: #000;
+    
+    float: left;
+    position: relative;
+    border: none;
+    border-left: 1px solid #dedfe0;
+    cursor: pointer;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    outline: none;
+   
+}
+
+.xw_ipt{
+    float: left;
+    width: 264px;
+    font-size: 16px;
+    color: #252525;
+    height: 46px;
+    line-height: 46px;
+    border: none;
+   
+}
+
+.xw_dl{
+    padding: 30px 30px 20px;
+    min-height: 513px;
+
+}
+
+.xw_psw .xw_pas{
+   
+    width: 360px;
+    font-size: 16px;
+    height: 46px;
+    margin-top: 20px;
+    line-height: 46px;  
+    
+}
+  
+.xw_psw .xw_pas{
+    padding-left: 10px;
+    box-sizing: border-box;
+    
+}
+.xw_psw .xw_pas::-webkit-input-placeholder{ /*WebKit browsers*/
+
+    opacity: 0.6;
+}
+
+.xw_ts{
+    text-align: left;
+    padding-top: 10px;
+    color:red;
+    display: none;
+}
+
+.xw_btn{
+    width: 100%;
+    height: 48px;
+    background-color: #46a1fa;
+    background-image: linear-gradient(90deg,#46a1fa,#067df8);
+    font-size: 17px;
+    color: #fff;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.xw_btn01{
+    width: 360px;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #0091ff;
+    color: #0091ff;
+    font-size: 17px;
+    text-align: center;
+    background: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.xw_btn01:hover{
+   
+    background-color:  rgba(0,144,255,.2)
+}
+
+.xw_btn:hover{
+    background-color: #0a7ff8;
+    background-image: linear-gradient(90deg,#0a7ff8,#067df8);
+}
+
+.xw_wjmm{
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.xw_wj{
+    margin-top: 30px;
+    color: #999;
+    font-size: 13px;
+    text-align: center;
+}
+.xw_wj.xw_zx{
+    position: relative;
+}
+.xw_wj .xw_zx i:nth-child(1){
+    content: "";
+    width: 130px;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    
+    left: 32px;
+    bottom: 32px;
+    
+
+}
+.xw_wj .xw_zx i:nth-child(1){
+    content: "";
+    width: 130px;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    
+    left: 32px;
+    bottom: 32px;
+    
+
+}
+
+.xw_wj .xw_zx i:nth-child(1){
+    content: "";
+    width: 130px;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    left: 32px;
+    bottom: 75px;
+}
+.xw_wj .xw_zx i:nth-child(2){
+    content: "";
+    width: 130px;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    bottom: 75px;
+    right: 32px;
+}
+.xw_dbtb{
+    margin-top: 15px;
+    text-align: center;
+
+  
+}
+.xw_dbtb img{
+    
+      width: 26px;
+      height: 26px;
+     
+      display: inline-block;
+      margin-left: 18px;
+     
+}
+
+
+#xw_db{
+    text-align: center;
+    margin-top: 135px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 11px;
+    color: #9d9d9d;
+
+}
+.xw_db01{
+    text-align: center;
+    font-size: 11px;
+    color: #9d9d9d;
+}
+.xw_db01 .xw_abq{
+  position: relative;
+  padding-right: 45px;
+}
+.xw_db01 .xw_abq .icon-xinxi{
+    position: absolute;
+    top:-5px;
+    left: -19px;
+}
+.xw_db01 .xw_abq1{
+    position: relative;
+}
+.xw_db01 .xw_abq1 .icon-weibiaoti-{
+    position: absolute;
+    top: -6px;
+    left: -17px;
+}
+.xw_db02{
+    padding: 10px 0;
+    font-size: 10px;
+    box-sizing: border-box;
+}

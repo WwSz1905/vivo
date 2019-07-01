@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+    #header{
+     position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+    }
+    #header ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #banner{
+        overflow: hidden;
+        width: 2565px;
+        height: 523px;
+        background: url(./img/xw/c1.jpg) no-repeat;
+        margin: 0 auto;
+        position: relative;
+        justify-content: space-around;
+    }
+#banner>div>ul>li>img{
+  width: 172px;
+  height: 172px;
+}
+#banner>div{
+    width: 2565px;
+    /* height: 176px; */
+    background: khaki;
+    position: absolute;
+    top: -214px;
+}
+
+#header>ul>li:hover #banner>div{
+   color: red;
+}
+
+#banner>div>ul{
+    display: flex;
+    
+    justify-content:space-around;
+    
+}
+
+</style>
+<body>
+
+    <div id="header">
+        <div class="nav">
+            <ul>
+                <li>你好</li>
+                <li>你好</li>
+                <li>你好</li>
+                <li>你好</li>
+                <li>你好</li>
+                <li>你好</li>
+                <li>你好</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="banner">
+        <div>
+            <ul>
+                <li><img src="./img/xw/c2.png" alt=""></li>
+                <li><img src="./img/xw/c2.png" alt=""></li>
+                <li><img src="./img/xw/c2.png" alt=""></li>
+                <li><img src="./img/xw/c2.png" alt=""></li>
+            </ul>
+        </div>
+        
+    </div>
+</body>
+</html>
