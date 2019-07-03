@@ -38,17 +38,23 @@ $(function () {
             $('.xw_ts').html('请输入有效的手机号 ！');
             noneTs();
         } else {
-            //请求ajax数据
-
+             //登录加载。。。
+            var index = layer.load(0, {shade: false});
+            
+            
             $.ajax({
                 type: 'post',
                 url: './xw_denglu.php',
                 data: 'username=' + username + '&password=' + password,
                 dataType: 'json',
                 success: function (res) {
+                    layer.closeAll();//关闭加载。。
                     if (res.code == 200) {
-                        alert('登录成功');
-                        location.href = '跳转首页路径';
+                        window.location.href = './commonality.html';
+                        window.localStorage.setItem('user',username);//成功后保存数据
+                       // alert('登录成功');
+                    //    console.log(localStorage.getItem('user',username));
+                    
                     } else {
                         $('.xw_ts').css('display', 'block');
                         $('.xw_ts').html('您输入的账号或密码输入错误 !');
@@ -59,6 +65,6 @@ $(function () {
             })
         }
     })
-})
 
+})
 

@@ -1,4 +1,5 @@
 <?php
+sleep(1);
 header("content-type:text/html;charset=utf-8");//解决中文乱码
 error_reporting(0);//解决语法报警
 $cfg['DefaultCharset']='utf-8';
