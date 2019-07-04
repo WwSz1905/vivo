@@ -50,7 +50,7 @@ $(function () {
                 
                 $.ajax({
                     type: 'post',
-                    url: 'xw_zhuce.php',
+                    url: './data/xw_zhuce.php',
                     data: "username=" + username + "&password=" + password,
                     dataType: 'json',
                     

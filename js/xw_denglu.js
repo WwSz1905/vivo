@@ -44,7 +44,7 @@ $(function () {
             
             $.ajax({
                 type: 'post',
-                url: './xw_denglu.php',
+                url: './data/xw_denglu.php',
                 data: 'username=' + username + '&password=' + password,
                 dataType: 'json',
                 success: function (res) {
